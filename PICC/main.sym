@@ -1,0 +1,49 @@
+008     @SCRATCH
+009     @SCRATCH
+009     _RETURN_
+00A     @SCRATCH
+00B     @SCRATCH
+00D-00E main.sum
+00F     main.i
+010     main.val1
+011     main.val2
+012     main.dat
+013     @MUL88.P1
+014     @MUL88.P1
+
+ROM Allocation:
+000002  @MUL88
+000029  main
+000029  @cinit1
+000029  @cinit2
+
+Project Directory:
+    Z:\Documents\Code_Workspaces\workspace_vlsi\4_2_Term_Final\PICC\
+
+Project Files:
+    main.c                                                  [15-12-13 06:08  CRC=27D5B0BD]
+    C:\Program Files\PICC\devices\16c57.h                   [03-7-13 14:28  CRC=22E8FF8A]
+
+Source signature=6DA7AFD1
+
+Units:
+    main (main)
+
+Compiler Settings:
+    Processor:      PIC16C57
+    Pointer Size:   5
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   main.xsym
+    Errors:      main.err
+    Ext Symbols: main.esym
+    INHX8:       main.hex
+    Symbols:     main.sym
+    List/Opcode: main.lst
+    Debug/COFF:  main.cof
+    Project:     main.ccspjt
+    Call Tree:   main.tre
+    Statistics:  main.STA

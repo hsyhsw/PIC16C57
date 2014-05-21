@@ -1,0 +1,210 @@
+[*]
+[*] GTKWave Analyzer v3.3.45 (w)1999-2012 BSI
+[*] Sun Dec 15 19:21:47 2013
+[*]
+[dumpfile] "/Users/adward/Documents/Code_Workspaces/workspace_vlsi/4_2_Term_Final/MostRecent_ISE.vcd.fst"
+[dumpfile_mtime] "Sun Dec 15 19:16:30 2013"
+[dumpfile_size] 15847
+[savefile] "/Users/adward/Documents/Code_Workspaces/workspace_vlsi/4_2_Term_Final/PIC16C57_Behavioral.gtkw"
+[timestart] 7315700
+[size] 1245 980
+[pos] -1 -1
+*-17.000000 7550000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] TestPIC16C57.
+[treeopen] TestPIC16C57.duv.
+[treeopen] TestPIC16C57.duv.alu.
+[sst_width] 198
+[signals_width] 284
+[sst_expanded] 1
+[sst_vpaned_height] 461
+@28
+TestPIC16C57.rst
+TestPIC16C57.clk
+@c00028
+#{TestPIC16C57.portAIO[3:0]} TestPIC16C57.portAIO[3] TestPIC16C57.portAIO[2] TestPIC16C57.portAIO[1] TestPIC16C57.portAIO[0]
+@28
+TestPIC16C57.portAIO[3]
+TestPIC16C57.portAIO[2]
+TestPIC16C57.portAIO[1]
+TestPIC16C57.portAIO[0]
+@1401200
+-group_end
+@28
+TestPIC16C57.duv.trisAReg[3:0]
+@c00024
+#{TestPIC16C57.portBIO[7:0]} TestPIC16C57.portBIO[7] TestPIC16C57.portBIO[6] TestPIC16C57.portBIO[5] TestPIC16C57.portBIO[4] TestPIC16C57.portBIO[3] TestPIC16C57.portBIO[2] TestPIC16C57.portBIO[1] TestPIC16C57.portBIO[0]
+@28
+TestPIC16C57.portBIO[7]
+TestPIC16C57.portBIO[6]
+TestPIC16C57.portBIO[5]
+TestPIC16C57.portBIO[4]
+TestPIC16C57.portBIO[3]
+TestPIC16C57.portBIO[2]
+TestPIC16C57.portBIO[1]
+TestPIC16C57.portBIO[0]
+@1401200
+-group_end
+@28
+TestPIC16C57.duv.trisBReg[7:0]
+#{TestPIC16C57.portCIO[7:0]} TestPIC16C57.portCIO[7] TestPIC16C57.portCIO[6] TestPIC16C57.portCIO[5] TestPIC16C57.portCIO[4] TestPIC16C57.portCIO[3] TestPIC16C57.portCIO[2] TestPIC16C57.portCIO[1] TestPIC16C57.portCIO[0]
+TestPIC16C57.duv.trisCReg[7:0]
+@200
+-CU State
+@2028
+^1 /private/var/tmp/../../../Users/adward/Documents/Code_Workspaces/workspace_vlsi/week09/../../../../../../private/var/tmp/../../../Users/adward/Documents/Code_Workspaces/workspace_vlsi/week09/../../../../../../private/var/tmp/../../../Users/adward/Documents/Code_Workspaces/workspace_vlsi/week09/../../../../../../private/var/tmp/../../../Users/adward/Documents/Code_Workspaces/workspace_vlsi/week09/../../../../../../private/var/tmp/../../../Users/adward/Documents/Code_Workspaces/workspace_vlsi/week09/../../../../../../private/var/tmp/../../../Users/adward/Documents/Code_Workspaces/workspace_vlsi/week09/../../../../../../private/var/tmp/../../../Users/adward/Documents/Code_Workspaces/workspace_vlsi/week09/../../../../../../private/var/tmp/../../../Users/adward/Documents/Code_Workspaces/workspace_vlsi/week09/../../../../../../private/var/tmp/../../../Users/adward/Documents/Code_Workspaces/workspace_vlsi/week09/TBL_FETCH_STATE.txt
+#{TestPIC16C57.duv.cu.fetchState[1:0]} TestPIC16C57.duv.cu.fetchState[1] TestPIC16C57.duv.cu.fetchState[0]
+^2 /private/var/tmp/../../../Users/adward/Documents/Code_Workspaces/workspace_vlsi/week09/../../../../../../private/var/tmp/../../../Users/adward/Documents/Code_Workspaces/workspace_vlsi/week09/../../../../../../private/var/tmp/../../../Users/adward/Documents/Code_Workspaces/workspace_vlsi/week09/../../../../../../private/var/tmp/../../../Users/adward/Documents/Code_Workspaces/workspace_vlsi/week09/../../../../../../private/var/tmp/../../../Users/adward/Documents/Code_Workspaces/workspace_vlsi/week09/../../../../../../private/var/tmp/../../../Users/adward/Documents/Code_Workspaces/workspace_vlsi/week09/../../../../../../private/var/tmp/../../../Users/adward/Documents/Code_Workspaces/workspace_vlsi/week09/../../../../../../private/var/tmp/../../../Users/adward/Documents/Code_Workspaces/workspace_vlsi/week09/../../../../../../private/var/tmp/../../../Users/adward/Documents/Code_Workspaces/workspace_vlsi/week09/TBL_EXECUTE_STATE.txt
+#{TestPIC16C57.duv.cu.executeState[4:0]} TestPIC16C57.duv.cu.executeState[4] TestPIC16C57.duv.cu.executeState[3] TestPIC16C57.duv.cu.executeState[2] TestPIC16C57.duv.cu.executeState[1] TestPIC16C57.duv.cu.executeState[0]
+@200
+-PC
+@22
+TestPIC16C57.duv.PC[10:0]
+@200
+-IR
+@4028
+[color] 2
+^>1 /private/var/tmp/../../../Users/adward/Documents/Code_Workspaces/workspace_vlsi/4_2_Term_Final/../../../../../../private/var/tmp/../../../Users/adward/Documents/Code_Workspaces/workspace_vlsi/week09/translateIR
+TestPIC16C57.duv.IR[11:0]
+@22
+TestPIC16C57.duv.IR[11:0]
+@28
+TestPIC16C57.duv.goto
+TestPIC16C57.duv.skip
+TestPIC16C57.duv.byteDestF
+@200
+-Working Reg
+@c00022
+TestPIC16C57.duv.WR[7:0]
+@28
+(0)TestPIC16C57.duv.WR[7:0]
+(1)TestPIC16C57.duv.WR[7:0]
+(2)TestPIC16C57.duv.WR[7:0]
+(3)TestPIC16C57.duv.WR[7:0]
+(4)TestPIC16C57.duv.WR[7:0]
+(5)TestPIC16C57.duv.WR[7:0]
+(6)TestPIC16C57.duv.WR[7:0]
+(7)TestPIC16C57.duv.WR[7:0]
+@1401200
+-group_end
+@200
+-RegisterFile
+@2028
+^4 /private/var/tmp/../../../Users/adward/Documents/Code_Workspaces/workspace_vlsi/week09/../../../../../../private/var/tmp/../../../Users/adward/Documents/Code_Workspaces/workspace_vlsi/week09/../../../../../../private/var/tmp/../../../Users/adward/Documents/Code_Workspaces/workspace_vlsi/week09/../../../../../../private/var/tmp/../../../Users/adward/Documents/Code_Workspaces/workspace_vlsi/week09/../../../../../../private/var/tmp/../../../Users/adward/Documents/Code_Workspaces/workspace_vlsi/week09/../../../../../../private/var/tmp/../../../Users/adward/Documents/Code_Workspaces/workspace_vlsi/week09/../../../../../../private/var/tmp/../../../Users/adward/Documents/Code_Workspaces/workspace_vlsi/week09/../../../../../../private/var/tmp/../../../Users/adward/Documents/Code_Workspaces/workspace_vlsi/week09/../../../../../../private/var/tmp/../../../Users/adward/Documents/Code_Workspaces/workspace_vlsi/week09/TBL_REGFILE_COMMAND.txt
+#{TestPIC16C57.duv.regFile.writeCommand[2:0]} TestPIC16C57.duv.regFile.writeCommand[2] TestPIC16C57.duv.regFile.writeCommand[1] TestPIC16C57.duv.regFile.writeCommand[0]
+@22
+#{TestPIC16C57.duv.regFile.writeDataIn[7:0]} TestPIC16C57.duv.regFile.writeDataIn[7] TestPIC16C57.duv.regFile.writeDataIn[6] TestPIC16C57.duv.regFile.writeDataIn[5] TestPIC16C57.duv.regFile.writeDataIn[4] TestPIC16C57.duv.regFile.writeDataIn[3] TestPIC16C57.duv.regFile.writeDataIn[2] TestPIC16C57.duv.regFile.writeDataIn[1] TestPIC16C57.duv.regFile.writeDataIn[0]
+#{TestPIC16C57.duv.regFile.fileAddr[4:0]} TestPIC16C57.duv.regFile.fileAddr[4] TestPIC16C57.duv.regFile.fileAddr[3] TestPIC16C57.duv.regFile.fileAddr[2] TestPIC16C57.duv.regFile.fileAddr[1] TestPIC16C57.duv.regFile.fileAddr[0]
+TestPIC16C57.duv.regFile.direct[7:0]
+TestPIC16C57.duv.regFile.indirect[7:0]
+@c00022
+#{TestPIC16C57.duv.regFile.regfileOut[7:0]} TestPIC16C57.duv.regFile.regfileOut[7] TestPIC16C57.duv.regFile.regfileOut[6] TestPIC16C57.duv.regFile.regfileOut[5] TestPIC16C57.duv.regFile.regfileOut[4] TestPIC16C57.duv.regFile.regfileOut[3] TestPIC16C57.duv.regFile.regfileOut[2] TestPIC16C57.duv.regFile.regfileOut[1] TestPIC16C57.duv.regFile.regfileOut[0]
+@28
+TestPIC16C57.duv.regFile.regfileOut[7]
+TestPIC16C57.duv.regFile.regfileOut[6]
+TestPIC16C57.duv.regFile.regfileOut[5]
+TestPIC16C57.duv.regFile.regfileOut[4]
+TestPIC16C57.duv.regFile.regfileOut[3]
+TestPIC16C57.duv.regFile.regfileOut[2]
+TestPIC16C57.duv.regFile.regfileOut[1]
+TestPIC16C57.duv.regFile.regfileOut[0]
+@1401200
+-group_end
+@200
+-RegFile Monitors
+@28
+#{TestPIC16C57.duv.regFile.MON_STATUS[7:0]} TestPIC16C57.duv.regFile.MON_STATUS[7] TestPIC16C57.duv.regFile.MON_STATUS[6] TestPIC16C57.duv.regFile.MON_STATUS[5] TestPIC16C57.duv.regFile.MON_STATUS[4] TestPIC16C57.duv.regFile.MON_STATUS[3] TestPIC16C57.duv.regFile.MON_STATUS[2] TestPIC16C57.duv.regFile.MON_STATUS[1] TestPIC16C57.duv.regFile.MON_STATUS[0]
+@22
+#{TestPIC16C57.duv.regFile.MON_FSR[7:0]} TestPIC16C57.duv.regFile.MON_FSR[7] TestPIC16C57.duv.regFile.MON_FSR[6] TestPIC16C57.duv.regFile.MON_FSR[5] TestPIC16C57.duv.regFile.MON_FSR[4] TestPIC16C57.duv.regFile.MON_FSR[3] TestPIC16C57.duv.regFile.MON_FSR[2] TestPIC16C57.duv.regFile.MON_FSR[1] TestPIC16C57.duv.regFile.MON_FSR[0]
+@28
+#{TestPIC16C57.duv.regFile.MON_GPRBank[1:0]} TestPIC16C57.duv.regFile.MON_GPRBank[1] TestPIC16C57.duv.regFile.MON_GPRBank[0]
+@22
+#{TestPIC16C57.duv.regFile.MON_GPRSelect[4:0]} TestPIC16C57.duv.regFile.MON_GPRSelect[4] TestPIC16C57.duv.regFile.MON_GPRSelect[3] TestPIC16C57.duv.regFile.MON_GPRSelect[2] TestPIC16C57.duv.regFile.MON_GPRSelect[1] TestPIC16C57.duv.regFile.MON_GPRSelect[0]
+@c00200
+-8GPR_Bank00
+@24
+#{TestPIC16C57.duv.regFile.MON_GPR_0_7[7:0]} TestPIC16C57.duv.regFile.MON_GPR_0_7[7] TestPIC16C57.duv.regFile.MON_GPR_0_7[6] TestPIC16C57.duv.regFile.MON_GPR_0_7[5] TestPIC16C57.duv.regFile.MON_GPR_0_7[4] TestPIC16C57.duv.regFile.MON_GPR_0_7[3] TestPIC16C57.duv.regFile.MON_GPR_0_7[2] TestPIC16C57.duv.regFile.MON_GPR_0_7[1] TestPIC16C57.duv.regFile.MON_GPR_0_7[0]
+#{TestPIC16C57.duv.regFile.MON_GPR_0_6[7:0]} TestPIC16C57.duv.regFile.MON_GPR_0_6[7] TestPIC16C57.duv.regFile.MON_GPR_0_6[6] TestPIC16C57.duv.regFile.MON_GPR_0_6[5] TestPIC16C57.duv.regFile.MON_GPR_0_6[4] TestPIC16C57.duv.regFile.MON_GPR_0_6[3] TestPIC16C57.duv.regFile.MON_GPR_0_6[2] TestPIC16C57.duv.regFile.MON_GPR_0_6[1] TestPIC16C57.duv.regFile.MON_GPR_0_6[0]
+#{TestPIC16C57.duv.regFile.MON_GPR_0_5[7:0]} TestPIC16C57.duv.regFile.MON_GPR_0_5[7] TestPIC16C57.duv.regFile.MON_GPR_0_5[6] TestPIC16C57.duv.regFile.MON_GPR_0_5[5] TestPIC16C57.duv.regFile.MON_GPR_0_5[4] TestPIC16C57.duv.regFile.MON_GPR_0_5[3] TestPIC16C57.duv.regFile.MON_GPR_0_5[2] TestPIC16C57.duv.regFile.MON_GPR_0_5[1] TestPIC16C57.duv.regFile.MON_GPR_0_5[0]
+#{TestPIC16C57.duv.regFile.MON_GPR_0_4[7:0]} TestPIC16C57.duv.regFile.MON_GPR_0_4[7] TestPIC16C57.duv.regFile.MON_GPR_0_4[6] TestPIC16C57.duv.regFile.MON_GPR_0_4[5] TestPIC16C57.duv.regFile.MON_GPR_0_4[4] TestPIC16C57.duv.regFile.MON_GPR_0_4[3] TestPIC16C57.duv.regFile.MON_GPR_0_4[2] TestPIC16C57.duv.regFile.MON_GPR_0_4[1] TestPIC16C57.duv.regFile.MON_GPR_0_4[0]
+#{TestPIC16C57.duv.regFile.MON_GPR_0_3[7:0]} TestPIC16C57.duv.regFile.MON_GPR_0_3[7] TestPIC16C57.duv.regFile.MON_GPR_0_3[6] TestPIC16C57.duv.regFile.MON_GPR_0_3[5] TestPIC16C57.duv.regFile.MON_GPR_0_3[4] TestPIC16C57.duv.regFile.MON_GPR_0_3[3] TestPIC16C57.duv.regFile.MON_GPR_0_3[2] TestPIC16C57.duv.regFile.MON_GPR_0_3[1] TestPIC16C57.duv.regFile.MON_GPR_0_3[0]
+#{TestPIC16C57.duv.regFile.MON_GPR_0_2[7:0]} TestPIC16C57.duv.regFile.MON_GPR_0_2[7] TestPIC16C57.duv.regFile.MON_GPR_0_2[6] TestPIC16C57.duv.regFile.MON_GPR_0_2[5] TestPIC16C57.duv.regFile.MON_GPR_0_2[4] TestPIC16C57.duv.regFile.MON_GPR_0_2[3] TestPIC16C57.duv.regFile.MON_GPR_0_2[2] TestPIC16C57.duv.regFile.MON_GPR_0_2[1] TestPIC16C57.duv.regFile.MON_GPR_0_2[0]
+#{TestPIC16C57.duv.regFile.MON_GPR_0_1[7:0]} TestPIC16C57.duv.regFile.MON_GPR_0_1[7] TestPIC16C57.duv.regFile.MON_GPR_0_1[6] TestPIC16C57.duv.regFile.MON_GPR_0_1[5] TestPIC16C57.duv.regFile.MON_GPR_0_1[4] TestPIC16C57.duv.regFile.MON_GPR_0_1[3] TestPIC16C57.duv.regFile.MON_GPR_0_1[2] TestPIC16C57.duv.regFile.MON_GPR_0_1[1] TestPIC16C57.duv.regFile.MON_GPR_0_1[0]
+#{TestPIC16C57.duv.regFile.MON_GPR_0_0[7:0]} TestPIC16C57.duv.regFile.MON_GPR_0_0[7] TestPIC16C57.duv.regFile.MON_GPR_0_0[6] TestPIC16C57.duv.regFile.MON_GPR_0_0[5] TestPIC16C57.duv.regFile.MON_GPR_0_0[4] TestPIC16C57.duv.regFile.MON_GPR_0_0[3] TestPIC16C57.duv.regFile.MON_GPR_0_0[2] TestPIC16C57.duv.regFile.MON_GPR_0_0[1] TestPIC16C57.duv.regFile.MON_GPR_0_0[0]
+@1401200
+-8GPR_Bank00
+@28
+#{TestPIC16C57.duv.regFile.MON_GPRBank[1:0]} TestPIC16C57.duv.regFile.MON_GPRBank[1] TestPIC16C57.duv.regFile.MON_GPRBank[0]
+@c00200
+-CurrentBankGPR
+@800200
+-GPR_HI
+@24
+TestPIC16C57.duv.regFile.MON_GPR_F[7:0]
+TestPIC16C57.duv.regFile.MON_GPR_E[7:0]
+TestPIC16C57.duv.regFile.MON_GPR_D[7:0]
+TestPIC16C57.duv.regFile.MON_GPR_C[7:0]
+TestPIC16C57.duv.regFile.MON_GPR_B[7:0]
+TestPIC16C57.duv.regFile.MON_GPR_A[7:0]
+TestPIC16C57.duv.regFile.MON_GPR_9[7:0]
+TestPIC16C57.duv.regFile.MON_GPR_8[7:0]
+@1000200
+-GPR_HI
+@800200
+-GPR_Lo
+@24
+TestPIC16C57.duv.regFile.MON_GPR_7[7:0]
+TestPIC16C57.duv.regFile.MON_GPR_6[7:0]
+TestPIC16C57.duv.regFile.MON_GPR_5[7:0]
+TestPIC16C57.duv.regFile.MON_GPR_4[7:0]
+TestPIC16C57.duv.regFile.MON_GPR_3[7:0]
+TestPIC16C57.duv.regFile.MON_GPR_2[7:0]
+TestPIC16C57.duv.regFile.MON_GPR_1[7:0]
+TestPIC16C57.duv.regFile.MON_GPR_0[7:0]
+@1000200
+-GPR_Lo
+@1401200
+-CurrentBankGPR
+@200
+-ALU
+@2028
+^5 /private/var/tmp/../../../Users/adward/Documents/Code_Workspaces/workspace_vlsi/4_2_Term_Final/../../../../../../private/var/tmp/../../../Users/adward/Documents/Code_Workspaces/workspace_vlsi/week09/../../../../../../private/var/tmp/../../../Users/adward/Documents/Code_Workspaces/workspace_vlsi/week09/TBL_ALU_FUNC.txt
+#{TestPIC16C57.duv.alu.funcIn[4:0]} TestPIC16C57.duv.alu.funcIn[4] TestPIC16C57.duv.alu.funcIn[3] TestPIC16C57.duv.alu.funcIn[2] TestPIC16C57.duv.alu.funcIn[1] TestPIC16C57.duv.alu.funcIn[0]
+@c00420
+#{TestPIC16C57.duv.alu.fIn[7:0]} TestPIC16C57.duv.alu.fIn[7] TestPIC16C57.duv.alu.fIn[6] TestPIC16C57.duv.alu.fIn[5] TestPIC16C57.duv.alu.fIn[4] TestPIC16C57.duv.alu.fIn[3] TestPIC16C57.duv.alu.fIn[2] TestPIC16C57.duv.alu.fIn[1] TestPIC16C57.duv.alu.fIn[0]
+@28
+TestPIC16C57.duv.alu.fIn[7]
+TestPIC16C57.duv.alu.fIn[6]
+TestPIC16C57.duv.alu.fIn[5]
+TestPIC16C57.duv.alu.fIn[4]
+TestPIC16C57.duv.alu.fIn[3]
+TestPIC16C57.duv.alu.fIn[2]
+TestPIC16C57.duv.alu.fIn[1]
+TestPIC16C57.duv.alu.fIn[0]
+@1401200
+-group_end
+@22
+#{TestPIC16C57.duv.alu.lIn[7:0]} TestPIC16C57.duv.alu.lIn[7] TestPIC16C57.duv.alu.lIn[6] TestPIC16C57.duv.alu.lIn[5] TestPIC16C57.duv.alu.lIn[4] TestPIC16C57.duv.alu.lIn[3] TestPIC16C57.duv.alu.lIn[2] TestPIC16C57.duv.alu.lIn[1] TestPIC16C57.duv.alu.lIn[0]
+@c00420
+#{TestPIC16C57.duv.alu.wIn[7:0]} TestPIC16C57.duv.alu.wIn[7] TestPIC16C57.duv.alu.wIn[6] TestPIC16C57.duv.alu.wIn[5] TestPIC16C57.duv.alu.wIn[4] TestPIC16C57.duv.alu.wIn[3] TestPIC16C57.duv.alu.wIn[2] TestPIC16C57.duv.alu.wIn[1] TestPIC16C57.duv.alu.wIn[0]
+@28
+TestPIC16C57.duv.alu.wIn[7]
+TestPIC16C57.duv.alu.wIn[6]
+TestPIC16C57.duv.alu.wIn[5]
+TestPIC16C57.duv.alu.wIn[4]
+TestPIC16C57.duv.alu.wIn[3]
+TestPIC16C57.duv.alu.wIn[2]
+TestPIC16C57.duv.alu.wIn[1]
+TestPIC16C57.duv.alu.wIn[0]
+@1401200
+-group_end
+@28
+TestPIC16C57.duv.alu.subCmd
+@24
+#{TestPIC16C57.duv.alu.bitSel[2:0]} TestPIC16C57.duv.alu.bitSel[2] TestPIC16C57.duv.alu.bitSel[1] TestPIC16C57.duv.alu.bitSel[0]
+@420
+[color] 2
+#{TestPIC16C57.duv.alu.resultOut[7:0]} TestPIC16C57.duv.alu.resultOut[7] TestPIC16C57.duv.alu.resultOut[6] TestPIC16C57.duv.alu.resultOut[5] TestPIC16C57.duv.alu.resultOut[4] TestPIC16C57.duv.alu.resultOut[3] TestPIC16C57.duv.alu.resultOut[2] TestPIC16C57.duv.alu.resultOut[1] TestPIC16C57.duv.alu.resultOut[0]
+@28
+#{TestPIC16C57.duv.alu.statusOut[2:0]} TestPIC16C57.duv.alu.statusOut[2] TestPIC16C57.duv.alu.statusOut[1] TestPIC16C57.duv.alu.statusOut[0]
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,45 @@
+//register file test
+1100_0001_1111 // MOVLW   0x1F
+0001_1111_1111 // ADDWF F 0x1F
+0001_1111_1110 // ADDWF F 0x1E
+0001_1111_1101 // ADDWF F 0x1D
+0001_1111_1100 // ADDWF F 0x1C
+0010_1011_1111 // INCF  F 0x1F
+1100_0001_0001 // MOVLW   0x11
+0000_0000_0000 // NOP
+//stack test (depth == 1)
+1001_0111_0111 // CALL    0x77 (call alu test)
+1010_1010_1000 // GOTO    0x0A8
+0000_0000_0000 // NOP
+
+@77 //address 0x77
+//alu test
+0000_1111_1111 // DECF  F 0x1F
+0100_0001_1111 // BCF 0   0x1F
+0100_0011_1110 // BCF 1   0x1E
+0100_0111_1101 // BCF 2   0x1D
+0010_0001_1111 // MOVF W  0x1F
+
+//set port data
+0000_0010_0101 // MOVWF   0x05 (PortA)
+0010_0001_1110 // MOVF W  0x1E
+0000_0010_0110 // MOVWF   0x06 (PortB)
+0010_0001_1101 // MOVF W  0x1D
+0000_0010_0111 // MOVWF   0x05 (PortC)
+//stack test (depth == 2)
+1001_1001_1000 // CALL    0x98 (call configure port as output)
+1000_1111_1111 // RETLW   0xFF
+//end of set port data function
+
+@98 //configure port as output
+1100_0000_0000 // MOVLW   0x00
+0000_0000_0101 // TRIS    5(A)
+0000_0000_0110 // TRIS    6(B)
+0000_0000_0111 // TRIS    7(C)
+1000_1111_1111 // RETLW   0xFF
+//end of configure port function
+
+@A8 //end of program
+0000_0000_0000 // NOP
+0010_1011_1110 // INCF  F 0x1E
+0000_0000_0000 // NOP

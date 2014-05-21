@@ -1,0 +1,56 @@
+[*]
+[*] GTKWave Analyzer v3.3.45 (w)1999-2012 BSI
+[*] Tue Nov 26 01:22:10 2013
+[*]
+[dumpfile] "/Users/adward/Documents/Code_Workspaces/workspace_vlsi/week09/MostRecent_ISE.vcd.fst"
+[dumpfile_mtime] "Tue Nov 26 01:21:10 2013"
+[dumpfile_size] 7622783
+[savefile] "/Users/adward/Documents/Code_Workspaces/workspace_vlsi/week09/PIC16C57_PAR.gtkw"
+[timestart] 7252000
+[size] 1245 756
+[pos] -1 -1
+*-19.080446 8330900 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] TestPIC16C57.
+[sst_width] 198
+[signals_width] 221
+[sst_expanded] 1
+[sst_vpaned_height] 516
+@22
+#{TestPIC16C57.portAIO[3:0]} TestPIC16C57.portAIO[3] TestPIC16C57.portAIO[2] TestPIC16C57.portAIO[1] TestPIC16C57.portAIO[0]
+@24
+#{TestPIC16C57.portBIO[7:0]} TestPIC16C57.portBIO[7] TestPIC16C57.portBIO[6] TestPIC16C57.portBIO[5] TestPIC16C57.portBIO[4] TestPIC16C57.portBIO[3] TestPIC16C57.portBIO[2] TestPIC16C57.portBIO[1] TestPIC16C57.portBIO[0]
+@22
+#{TestPIC16C57.portCIO[7:0]} TestPIC16C57.portCIO[7] TestPIC16C57.portCIO[6] TestPIC16C57.portCIO[5] TestPIC16C57.portCIO[4] TestPIC16C57.portCIO[3] TestPIC16C57.portCIO[2] TestPIC16C57.portCIO[1] TestPIC16C57.portCIO[0]
+@200
+-PC
+@22
+#{TestPIC16C57.duv.PC[10:0]} TestPIC16C57.duv.PC[10] TestPIC16C57.duv.PC[9] TestPIC16C57.duv.PC[8] TestPIC16C57.duv.PC[7] TestPIC16C57.duv.PC[6] TestPIC16C57.duv.PC[5] TestPIC16C57.duv.PC[4] TestPIC16C57.duv.PC[3] TestPIC16C57.duv.PC[2] TestPIC16C57.duv.PC[1] TestPIC16C57.duv.PC[0]
+@200
+-IR
+@4028
+^>1 /Users/adward/Documents/Code_Workspaces/workspace_vlsi/week09/translateIR
+#{TestPIC16C57.duv.IR[11:0]} TestPIC16C57.duv.IR[11] TestPIC16C57.duv.IR[10] TestPIC16C57.duv.IR[9] TestPIC16C57.duv.IR[8] TestPIC16C57.duv.IR[7] TestPIC16C57.duv.IR[6] TestPIC16C57.duv.IR[5] TestPIC16C57.duv.IR[4] TestPIC16C57.duv.IR[3] TestPIC16C57.duv.IR[2] TestPIC16C57.duv.IR[1] TestPIC16C57.duv.IR[0]
+@22
+#{TestPIC16C57.duv.IR[11:0]} TestPIC16C57.duv.IR[11] TestPIC16C57.duv.IR[10] TestPIC16C57.duv.IR[9] TestPIC16C57.duv.IR[8] TestPIC16C57.duv.IR[7] TestPIC16C57.duv.IR[6] TestPIC16C57.duv.IR[5] TestPIC16C57.duv.IR[4] TestPIC16C57.duv.IR[3] TestPIC16C57.duv.IR[2] TestPIC16C57.duv.IR[1] TestPIC16C57.duv.IR[0]
+@28
+TestPIC16C57.duv.skip
+@200
+-RegisterFile
+@22
+#{TestPIC16C57.duv.fsrIndWriteData[7:0]} TestPIC16C57.duv.fsrIndWriteData[7] TestPIC16C57.duv.fsrIndWriteData[6] TestPIC16C57.duv.fsrIndWriteData[5] TestPIC16C57.duv.fsrIndWriteData[4] TestPIC16C57.duv.fsrIndWriteData[3] TestPIC16C57.duv.fsrIndWriteData[2] TestPIC16C57.duv.fsrIndWriteData[1] TestPIC16C57.duv.fsrIndWriteData[0]
+#{TestPIC16C57.duv.regFile/FSReg[7:0]} TestPIC16C57.duv.regFile/FSReg[7] TestPIC16C57.duv.regFile/FSReg[6] TestPIC16C57.duv.regFile/FSReg[5] TestPIC16C57.duv.regFile/FSReg[4] TestPIC16C57.duv.regFile/FSReg[3] TestPIC16C57.duv.regFile/FSReg[2] TestPIC16C57.duv.regFile/FSReg[1] TestPIC16C57.duv.regFile/FSReg[0]
+@28
+#{TestPIC16C57.duv.regFile/status[7:0]} TestPIC16C57.duv.regFile/status[7] TestPIC16C57.duv.regFile/status[6] TestPIC16C57.duv.regFile/status[5] TestPIC16C57.duv.regFile/status[4] TestPIC16C57.duv.regFile/status[3] TestPIC16C57.duv.regFile/status[2] TestPIC16C57.duv.regFile/status[1] TestPIC16C57.duv.regFile/status[0]
+@22
+#{TestPIC16C57.duv.gprOut[7:0]} TestPIC16C57.duv.gprOut[7] TestPIC16C57.duv.gprOut[6] TestPIC16C57.duv.gprOut[5] TestPIC16C57.duv.gprOut[4] TestPIC16C57.duv.gprOut[3] TestPIC16C57.duv.gprOut[2] TestPIC16C57.duv.gprOut[1] TestPIC16C57.duv.gprOut[0]
+@200
+-ALU
+@2028
+^1 /Users/adward/Documents/Code_Workspaces/workspace_vlsi/week09/../../../../../../private/var/tmp/../../../Users/adward/Documents/Code_Workspaces/workspace_vlsi/week09/TBL_ALU_FUNC.txt
+#{TestPIC16C57.duv.cu/aluFuncRetain[4:0]} TestPIC16C57.duv.cu/aluFuncRetain[4] TestPIC16C57.duv.cu/aluFuncRetain[3] TestPIC16C57.duv.cu/aluFuncRetain[2] TestPIC16C57.duv.cu/aluFuncRetain[1] TestPIC16C57.duv.cu/aluFuncRetain[0]
+@22
+#{TestPIC16C57.duv.alu/adderOut[6:0]} TestPIC16C57.duv.alu/adderOut[6] TestPIC16C57.duv.alu/adderOut[5] TestPIC16C57.duv.alu/adderOut[4] TestPIC16C57.duv.alu/adderOut[2] TestPIC16C57.duv.alu/adderOut[1] TestPIC16C57.duv.alu/adderOut[0]
+@28
+#{TestPIC16C57.duv.aluStatusOut[1:0]} TestPIC16C57.duv.aluStatusOut[1]
+[pattern_trace] 1
+[pattern_trace] 0

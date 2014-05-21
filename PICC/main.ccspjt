@@ -1,0 +1,63 @@
+[Directories]
+Include=C:\Program Files\PICC\devices\;C:\Program Files\PICC\drivers\
+Library=
+LinkerScript=
+[defines]
+enabled=0
+D1=
+V1=
+chip=1
+[fileformats]
+forcecoff=0
+debug=4
+error=2
+object=0
+list=1
+scratch=0
+sta=1
+tre=1
+allerrors=1
+allwarnings=1
+stayupne=3
+stayupoe=0
+[PROJECT]
+Target=main.hex
+Development_Mode=
+Processor=0x6C57
+Processor_Text=PIC16C57
+ToolSuite=CCS
+CCSVersion=5.008
+Compiler=PCB
+[Target Data]
+BuildTool=C-COMPILER
+OptionString=+FB
+AdditionalOptionString=
+BuildRequired=1
+FileList=main.c
+[main.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+[mru-list]
+1=main.c
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+[Opened Files]
+1=main.c
+2=
+3=main.lst
+4=
+[CompilerVersion]
+Fixed=
+[Documentation]
+1=Z:\Documents\Code_Workspaces\workspace_vlsi\week09\PICC\main Notes.txt
+1T=main Notes.txt
+1E=
+1W=0
+Count=1
+[Units]
+Count=1
+1=main (main)
