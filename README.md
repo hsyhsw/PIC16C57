@@ -66,40 +66,48 @@ run
 -slice_utilization_ratio_maxmargin 5
 ```
 
+
 synthesize:
 ```Shell
 xst -ifn $(PROJECT_FILE_NAME).xst -ofn $(TOP_MODULE_NAME).syr
 ```
+
 
 translate:
 ```Shell
 ngdbuild -dd _ngo -nt timestamp -p xc7a100t-csg324-3 $(TOP_MODULE_NAME).ngc $(TOP_MODULE_NAME).ngd
 ```
 
+
 map:
 ```Shell
 map -p xc7a100t-csg324-3 -w -logic_opt on -ol high -t 1 -xt 0 -register_duplication off -mt 2 -ir off -pr off -lc off -detail -power off -o $(TOP_MODULE_NAME)_map.ncd $(TOP_MODULE_NAME).ngd $(TOP_MODULE_NAME).pcf
 ```
+
 
 PAR:
 ```Shell
 par -w -x -ol high -mt 2 $(TOP_MODULE_NAME)_map.ncd $(TOP_MODULE_NAME).ncd $(TOP_MODULE_NAME).pcf
 ```
 
+
 post par timing generation:
 ```Shell
 trce -v 3 -s 3 -n 3 -fastpaths -xml $(TOP_MODULE_NAME).twx $(TOP_MODULE_NAME).ncd -o $(TOP_MODULE_NAME).twr $(TOP_MODULE_NAME).pcf
 ```
+
 
 post par simulation model generation:
 ```Shell
 netgen -insert_glbl true -w -dir netgen/translate -ofmt verilog -sim $(TOP_MODULE_NAME).ngd $(TOP_MODULE_NAME)_translate.v
 ```
 
+
 compile VPI
 ```Shell
 bash compilePLI.sh
 ```
+
 
 timing simulation
 ```Shell
